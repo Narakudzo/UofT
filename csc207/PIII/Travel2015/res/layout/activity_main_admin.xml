@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/ScrollView01"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#ffffff" >
+
+<LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageview19"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/airplane"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/admin" />
+         
+    <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="@string/adminmenu"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+     <Button
+      android:id="@+id/searchflightadmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="searchflightadmin"
+      android:text="@string/searchflightadmin"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+     
+     <Button
+      android:id="@+id/searchitinerariesadmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="searchitinerariesadmin"
+      android:text="@string/searchitinerariesadmin"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+
+     <Button
+      android:id="@+id/clientinfoadmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="clientinfoadmin"
+      android:text="@string/clientinfoadmin"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+
+     <Button
+      android:id="@+id/itinerariesinfoadmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="itinerariesinfoadmin"
+      android:text="@string/itinerariesinfoadmin"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+     
+     <Button
+      android:id="@+id/editflightinfoadmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="editflightinfoadmin"
+      android:text="@string/editflightinfoadmin"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+     
+     <Button
+      android:id="@+id/uploadclient"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="uploadclient"
+      android:text="@string/uploadclient"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+     
+     <Button
+      android:id="@+id/uploadflight"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="uploadflight"
+      android:text="@string/uploadflight"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+   <Button
+      android:id="@+id/button1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="30dp"
+      android:layout_marginBottom="40dp"
+      android:onClick="logout"
+      android:text="@string/logout" />
+
+  </LinearLayout>
+</ScrollView>

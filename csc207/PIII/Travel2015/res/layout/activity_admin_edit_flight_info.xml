@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/ScrollView01"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#ffffff" >
+
+<LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:text="@string/editflightinfoadmin"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    <ImageView
+        android:id="@+id/imageview4"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/searchflight"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/editflight" />
+
+    
+   <TextView
+       android:id="@+id/searchText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+       android:text="@string/searchbykey" />
+   <EditText
+        android:id="@+id/searchKeywords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/searchkeywords"
+        android:inputType="text" />
+   <Button
+      android:id="@+id/searchButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="10dp"
+      android:onClick="searchflight"
+      android:text="@string/search" />
+ 
+   <TextView
+       android:id="@+id/searchResultText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:layout_gravity="center" />
+
+   <Spinner
+        android:id="@+id/searchResultSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" /> 
+
+   <Button
+      android:id="@+id/searchResultButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:onClick="editflight"
+      android:text="@string/editflight" />
+   <Button
+      android:id="@+id/searchResultBackButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:onClick="backtosearch"
+      android:text="@string/backtosearch" />
+
+
+    <Button
+      android:id="@+id/backtomenu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="30dp"
+      android:layout_marginBottom="30dp"
+      android:onClick="backtomenu"
+      android:text="@string/backtomenu" />
+    
+</LinearLayout>
+</ScrollView>

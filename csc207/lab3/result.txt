@@ -1,0 +1,30 @@
+Java Automatic Marker 0.1.0
+
+********************************************************************************
+*                          Tests results for AuthorTest                        *
+********************************************************************************
+Test case for the string representation of an Author after using setters failed 
+because of a NoClassDefFoundError.
+    Why do I have a NoClassDefFoundError?
+        One of the files in your submission coult not be compiled or were 
+        located in the wrong package. Some tests were not run as a result.
+    Details:
+        Unable to find class week3lab.Author.
+
+********************************************************************************
+*                           Tests results for BookTest                         *
+********************************************************************************
+Test case for correct output of the main function failed because of a 
+NoClassDefFoundError.
+    Why do I have a NoClassDefFoundError?
+        One of the files in your submission coult not be compiled or were 
+        located in the wrong package. Some tests were not run as a result.
+    Details:
+        Unable to find class week3lab.Book.
+
+
+********************************************************************************
+*                        SUMMARY @ 2015/01/29 10:04:38                         *
+********************************************************************************
+    Tests passed: 0
+    Tests run: 2

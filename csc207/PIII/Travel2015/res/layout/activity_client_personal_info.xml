@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/ScrollView01"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#ffffff" >
+
+<LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    
+   <TextView
+       android:id="@+id/textView13"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="5dp"
+       android:text="@string/personalinfo"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/searchflight"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/personal" />
+
+    
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       android:text="@string/editclientinfo" />
+ 
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:inputType="text" />
+     <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/lastname" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/firstname" />
+    
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text|textEmailAddress" />
+    <TextView
+       android:id="@+id/textView5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/email" />
+ 
+     <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/address" />
+
+     <EditText
+        android:id="@+id/editCreditCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/creditcard" />
+        
+     <EditText
+        android:id="@+id/editExpiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView8"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/expiry" />
+    
+    <Button
+      android:id="@+id/update"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="20dp"
+      android:onClick="update"
+      android:text="@string/updateinformation" />
+    
+     <EditText
+        android:id="@+id/editPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/password1"
+        android:inputType="textPassword" />
+     <EditText
+        android:id="@+id/editPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/password2"
+        android:inputType="textPassword" />
+    <Button
+      android:id="@+id/updatepassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:onClick="updatepassword"
+      android:text="@string/updatepassword" />
+      
+    <Button
+      android:id="@+id/backtomenu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="30dp"
+      android:layout_marginBottom="30dp"
+      android:onClick="backtomenu"
+      android:text="@string/backtomenu" />
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,26 @@
+Java Automatic Marker 0.1.0
+
+********************************************************************************
+*                        Tests results for ArrayGridTest                       *
+********************************************************************************
+Test case for the equals(Grid) method failed because of a NullPointerException.
+    Why do I have a NullPointerException?
+        Your code attempted to call a method on an variable or field that 
+        contained the null value.
+
+Test case for the equals(Grid) method failed because of a NullPointerException.
+    Why do I have a NullPointerException?
+        Your code attempted to call a method on an variable or field that 
+        contained the null value.
+
+Test case for the equals(Grid) method failed because of a NullPointerException.
+    Why do I have a NullPointerException?
+        Your code attempted to call a method on an variable or field that 
+        contained the null value.
+
+
+********************************************************************************
+*                        SUMMARY @ 2015/02/18 16:48:27                         *
+********************************************************************************
+    Tests passed: 319
+    Tests run: 322

@@ -1,0 +1,4 @@
+Ogawa,Spencer,spencer.ogawa@mail.utoronto.ca,123 Toronto ON Canada,0123456789,10/19
+Liu,Chang,chan.liu@mail.utoronto.ca,456 Toronto ON Canada,8888888238238,03/18
+Chen,Yiyan,yiyan.chen@mail.utoronto.ca,789 Toronto ON Canada,363237264372,02/20
+Yuan,Yu,ran.yuan@mail.utoronto.ca,654 Toronto ON Canada,6168138461351351,04/16

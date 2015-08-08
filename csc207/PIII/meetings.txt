@@ -1,0 +1,75 @@
+MINITES BOOKED ON MAR 27TH 2015
+
+This meeting was held on BA3185 for launching the program in CDF from 1pm to 3pm. After finishing the meeting, we separated the works of javadoc. And we scanned the whole java code for the README file.
+
+	CURRENT STATUS OF THE PROJECT:
+	* The whole activity of the apps
+	* The whole java program
+	
+	WHAT WE DID IN MEETING:
+	* Launched the program
+	* Scanned the program
+	
+	PLAN BEFORE THE DUE DAY:
+	* Edited and finished the crc card
+	* Edited and finished the javadoc of the java file
+	* Edited and finished the README file
+	* Edited and finished the meeting file.
+
+
+MINITES BOOKED ON MAR 25TH 2015
+
+We met in SS study zone for our demo on Mar 25, 2015 from 1pm to 4pm. Our demo is on Mar 25, 2015 from 4:30pm. In this meeting, we mainly launched our program and read the readme.txt for understanding the process and explaining to the TA.
+
+	CURRENT STATUS OF THE PROJECT:
+	* The upload flight and client file in Admin Main Menu.
+	* The Client Main Menu. (We can search/book Flight, search/book itineraries, 
+	  edit personal/billing information and view/cancel itineraries in Client Main
+          Meun.)
+
+	WHAT WE DID IN MEETING:
+	* Launched the program
+	* Prepared to the demo
+	* Edited the crc card
+
+	PLAN FOR OUR NEXT MEETING:
+	* Complete the booking application of admin
+	* Complete the comment and java doc
+	* Going through and edit the readme.txt
+	* Complete the driver.java
+	* Complete the crc.pdf
+
+
+MINITES BOOKED ON MAR 23TH 2015
+
+We booked a study room for our meeting on Monday Mar 23, 2015 from 12om to 3pm. In this meeting, we looked around the main activity menu which finished by Spencer. We launched it and understand the java code and the xml. Later, we discussed the design of upload the flight and client.
+
+	CURRENT STATUS OF THE PROJECT:
+	* The admin and client login page
+	* The menu of admin main menu and client main menu
+
+	WHAT WE DID IN MEETING:
+	* We discussed how to do the upload flight and upload client in Admin page.
+	* We designed the upload flight xml the java code of upload. 
+
+	PLAN FOR OUR NEXT MEETING:
+	* Our next meeting on Wednesday before the demo.
+	* Launch the program what we finished.
+	* The preparation for the demo.
+
+
+MINITES BOOKED ON MAR 30TH 2015
+
+We had the first status meeting of Phase3 at 1pm to 4:30pm on Mar 30, 2015.
+In this meeting, we mainly discussed what we need to do for the Phase3a interview and the feature list of this phase for crc card. Also, we separated the work in 4 parts for each teammates. 
+
+	TO DO LIST BEFORE NEXT MEETING:
+	* Spencer: Doing the main activities and java code
+	* Chang: CRC card, Launch activities
+	* Yu (LILY): Preparation for the demos, Launch activities
+	* Yiyan (Stella): Report the meeting file, Launch activities
+
+	PLAN FOR OUR NEXT MEETING:
+	* Our next meeting on Monday Mar 23th at Gerstein Library 105B from 12pm - 3pm
+	* Going through the main activities and java code we have done
+	* Preparing to the demos

@@ -1,0 +1,106 @@
+Java Automatic Marker 0.1.0
+
+********************************************************************************
+*                          Tests results for DriverTest                        *
+********************************************************************************
+Test case for the getItineraries(String date, String origin, String 
+destination) method
+several itineraries with one flight each
+ failed because of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but 
+        was:<[413,2014-11-30,2014-12-01,Jetliner 
+        Flights,LAX,Pearson,04:37512,2014-11-30,2014-11-30,Turboprop 
+        Airline,LAX,Pearson,06:42444,2014-11-30,2014-12-01,Jetliner 
+        Flights,LAX,Pearson,04:37]>
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method
+one itinerary with three flights
+ failed because of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but was:<[102,2014-11-23 
+        15:43,2014-11-23 17:15,Jetliner Flights,Manila,Adelaide294,2014-11-23 
+        17:10,2014-11-23 23:30,Turboprop 
+        Flights,Adelaide,Singapore941,2014-11-24 01:21,2014-11-24 03:40,Air 
+        China,Singapore,Bangkok116311:57103,2014-11-23 16:19,2014-11-23 
+        17:52,Jetliner Flights,Manila,Adelaide294,2014-11-23 17:10,2014-11-23 
+        23:30,Turboprop Flights,Adelaide,Singapore941,2014-11-24 
+        01:21,2014-11-24 03:40,Air 
+        China,Singapore,Bangkok116311:21103,2014-11-23 16:19,2014-11-23 
+        17:52,Jetliner Flights,Manila,Adelaide295,2014-11-23 17:40,2014-11-23 
+        23:58,Turboprop Flights,Adelaide,Singapore941,2014-11-24 
+        01:21,2014-11-24 03:40,Air 
+        China,Singapore,Bangkok116311:21102,2014-11-23 15:43,2014-11-23 
+        17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore941,2014-11-24 
+        01:21,2014-11-24 03:40,Air 
+        China,Singapore,Bangkok116311:57103,2014-11-23 16:19,2014-11-23 
+        17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore941,2014-11-24 
+        01:21,2014-11-24 03:40,Air China,Singapore,Bangkok116311:21]>
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method
+one itinerary with one flight
+ failed because of an AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned. Expected itinerary: "414,2014-12-01 
+        05:30,2014-12-01 11:12,Jetliner Flights,Manila,Seoul24005:42" in 
+        output, which was: "414,2014-12-01,2014-12-01,Jetliner 
+        Flights,Manila,Seoul,05:42"
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method
+one itinerary with two flights
+ failed because of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but was:<[102,2014-11-23 
+        15:43,2014-11-23 17:15,Jetliner Flights,Manila,Adelaide294,2014-11-23 
+        17:10,2014-11-23 23:30,Turboprop 
+        Flights,Adelaide,Singapore90007:47103,2014-11-23 16:19,2014-11-23 
+        17:52,Jetliner Flights,Manila,Adelaide294,2014-11-23 17:10,2014-11-23 
+        23:30,Turboprop Flights,Adelaide,Singapore90007:11103,2014-11-23 
+        16:19,2014-11-23 17:52,Jetliner Flights,Manila,Adelaide295,2014-11-23 
+        17:40,2014-11-23 23:58,Turboprop 
+        Flights,Adelaide,Singapore90007:39102,2014-11-23 15:43,2014-11-23 
+        17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90014:17103,2014-11-23 
+        16:19,2014-11-23 17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 
+        23:59,2014-11-24 06:00,Turboprop Flights,Adelaide,Singapore90013:41]>
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method
+several itineraries with up to two flights
+ failed because of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but 
+        was:<[156,2014-11-30,2014-11-30,Superprop 
+        Airways,LAX,Portland,02:20413,2014-11-30 21:22,2014-12-01 
+        01:59,Jetliner Flights,LAX,Pearson103,2014-11-30 16:19,2014-11-30 
+        20:52,Jetliner Flights,Pearson,Portland37000:-30444,2014-11-30 
+        23:22,2014-12-01 03:59,Jetliner Flights,LAX,Pearson103,2014-11-30 
+        16:19,2014-11-30 20:52,Jetliner 
+        Flights,Pearson,Portland375-2:-30298,2014-11-30 23:22,2014-12-01 
+        09:59,Jetliner Flights,LAX,JFK521,2014-11-30 04:50,2014-11-30 
+        10:07,Turboprop Airline,JFK,Portland870-13:-15]>
+
+
+********************************************************************************
+*                        SUMMARY @ 2015/03/14 21:36:45                         *
+********************************************************************************
+    Tests passed: 8
+    Tests run: 13

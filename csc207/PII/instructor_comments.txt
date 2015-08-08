@@ -1,0 +1,11 @@
+Dear group_0361,
+
+I see that you implemented reading/writing serialized data in Phase II.  You are
+a step ahead for Phase III!  Originally, none of the tests passed due to filepath
+issues, but I was able to resolve that.  I changed the path from "src/FILENAME" to
+simply "FILENAME".
+
+Once I made that change, 8 of 13 tests passed.  You'll find the results in 
+result.txt.
+
+- Jen Campbell

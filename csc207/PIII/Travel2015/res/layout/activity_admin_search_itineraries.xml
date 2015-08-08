@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/ScrollView01"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#ffffff" >
+
+<LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="5dp"
+       android:text="@string/searchitineraries2"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    <ImageView
+        android:id="@+id/imageview9"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/searchflight"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/search2" />
+
+    
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       android:text="@string/enterflightinfo"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+   <LinearLayout
+    android:id="@+id/container2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal" >
+
+     <Spinner
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/year_array"
+        android:prompt="@string/year"
+        android:hint="@string/YYYY" />  
+ 
+     <Spinner
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/month_array"
+        android:prompt="@string/month"
+        android:hint="@string/MM" />
+ 
+     <Spinner
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/date_array"
+        android:prompt="@string/date"
+        android:hint="@string/DD" />
+ 
+     </LinearLayout>
+
+     <Spinner
+        android:id="@+id/sortby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/sortby_array"
+        android:prompt="@string/sortby" /> 
+
+    <EditText
+        android:id="@+id/editOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/origin"
+        android:inputType="text" />
+ 
+    <EditText
+        android:id="@+id/editDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/destination"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/myclient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" /> 
+
+    <Button
+      android:id="@+id/searchflight"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="30dp"
+      android:onClick="searchflight"
+      android:text="@string/search" />
+
+    <Button
+      android:id="@+id/backtomenu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="30dp"
+      android:layout_marginBottom="30dp"
+      android:onClick="backtomenu"
+      android:text="@string/backtomenu" />
+    
+</LinearLayout>
+</ScrollView>

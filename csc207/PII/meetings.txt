@@ -1,0 +1,86 @@
+MINITES BOOKED ON MARCH 12TH 2015
+
+  Current status of the project as of Mar 12, 2015:
+    * done: All frameworks are done as of this date.
+    * implemented: New structure of storing itineraries.
+    * almost done: Sorting itineraries by price or duration.
+  
+  Status meeting - 1.5 hours (Yiyan & Spencer):
+    * Discussed and implemented sorting algorithms for itineraries.
+    * Made a simple test file and ran it for the check.
+  
+  To do list before the due date:
+    * Yiyan, Yu, Chang: review JavaDoc and styling by Mar 12 at 4pm.
+    * Spencer: Run the final test at 4pm on Mar 12 at CDF lab.
+
+
+MINITES BOOKED ON MARCH 11TH 2015
+
+We had a status meeting at 1pm on Mar 11th 2015 at SS lounge.
+But the meeting took several hours to figure it out how to deal with
+tree structured itinerary lists.
+
+  Current status of the project as of Mar 11, 2015:
+    * done: Driver.java, User.java, Administrator.java, Client.java
+            ArrayDB.java, TravelConstants.java
+    * implemented: Serialized ArrayDB, Flight, Client in order to save
+                   them into serialized data.
+    * almost done: Flight.java, Console.java
+  
+  Status meeting - 2 hours (all members attended):
+    * Console.java needed to return itineraries from general trees
+      implemented in Flight object. All members tried several methods
+      to resolve it, but we all didn't find the right answer.
+    * We decided to change the structure of storing Flight objects.
+      At this time, we all agreed to store all possible itineraries
+      into List<List<Flight>> aka nested list. In terms of efficiency
+      we all agreed this is not the best solution for a large data set.
+   
+   Tasks:
+     * Spencer: Re-construct the data structure for itineraries.
+     * All other members: find the solution for sorting itineraries.
+     
+   Next meeting:
+     * Mar 12, 2015 after CSC236 exam at 3pm at SS lounge.
+
+
+MINUTES BOOKED ON MARCH 7TH 2015
+
+Our planning meeting was held on March 6th 2015 at 12PM at Robart
+Library - 12th Floor Sussex 2.
+
+  Current status of the project as of Mar 6, 2015:
+    * done: crc.pdf
+    * done: decided who work on which part
+    * implemented: blank .java files are created according to crc.pdf
+    * almost done: none
+
+  Tasks for the members which agreed upon in this meeting:
+    * Chang: ArrayDB.java, Client.java
+    * Yiyan (Stella): Flight.java
+    * Yu (Liliy): Administrator.java, User.java
+    * Spencer: Console.java, TravelConstants.java, Driver.java
+
+  Plans for our next status meeting:
+    * Either Tuesday Mar 10 or Wednesday Mar 11, 2015
+    * Basically, all members implement each Java files before the next
+      status meeting.
+
+
+MINUTES BOOKED ON MARCH 2ND 2015
+
+  Current status of the project as of Mar 2, 2015:
+    * done: exchanged contact information
+    * done: planned for our next meeting
+    * implemented: none
+    * almost done: none
+ 
+  Tasks for this week before our next meeting on Thursday Mar 5, 2015:
+    * exchange crc.pdf between groups (ALL)
+    * take a look at driver.java and understand the methods (ALL)
+    * understand the features we are going to implement (ALL)
+   
+  Plans for our next planning meeting on Mar 5, 2015:
+    * build up crc.pdf and UML (ALL)
+    * decide who works on what part (ALL)
+

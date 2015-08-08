@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/ScrollView01"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#ffffff" >
+
+<LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="5dp"
+       android:text="@string/admineditpersonal1"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/searchflight"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/personal2" />
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="5dp"
+       android:layout_marginBottom="5dp"
+       android:text="@string/chooseemail" />
+    
+    <Spinner
+        android:id="@+id/myclient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" /> 
+    
+    <Button
+      android:id="@+id/view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:onClick="view"
+      android:text="@string/view" />
+
+      
+    <Button
+      android:id="@+id/backtomenu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="30dp"
+      android:layout_marginBottom="30dp"
+      android:onClick="backtomenu"
+      android:text="@string/backtomenu" />
+    
+</LinearLayout>
+</ScrollView>
+

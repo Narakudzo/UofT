@@ -1,0 +1,20 @@
+AC111,2015-03-10 06:15,2015-03-10 07:20,Air Canada,Toronto,Montreal,545.30,2
+AC008,2015-03-10 07:15,2015-03-10 08:20,Air Canada,Toronto,Montreal,535.30,2
+AC189,2015-03-10 09:15,2015-03-10 10:20,Air Canada,Toronto,Montreal,505.30,2
+AC151,2015-03-10 10:15,2015-03-10 11:20,Air Canada,Toronto,Montreal,545.30,2
+AC098,2015-03-10 11:15,2015-03-10 12:20,Air Canada,Toronto,Montreal,535.30,2
+AC089,2015-03-10 12:15,2015-03-10 13:20,Air Canada,Toronto,Montreal,505.30,2
+AC165,2015-03-10 13:15,2015-03-10 14:20,Air Canada,Toronto,Montreal,545.30,2
+AC875,2015-03-10 14:15,2015-03-10 15:20,Air Canada,Toronto,Montreal,535.30,2
+AC520,2015-03-10 15:15,2015-03-10 16:20,Air Canada,Toronto,Montreal,505.30,2
+AC222,2015-03-10 12:30,2015-03-10 14:20,Air Canada,Montreal,New York,830.10,2
+AC232,2015-03-10 12:50,2015-03-10 14:40,Air Canada,Montreal,New York,840.10,2
+AC299,2015-03-10 13:06,2015-03-10 17:00,Air Canada,Montreal,San Francisco,645.10,2
+UN5823,2015-03-10 15:15,2015-03-10 20:40,United Air Line,New York,San Francisco,680.30,2
+AC333,2015-03-11 08:15,2015-03-11 10:28,Air Canada,Toronto,Vancouver,585.00,2
+AC555,2015-03-11 15:12,2015-03-11 17:59,Air Canada,Vancouver,Los Angels,375.90,2
+AC001,2015-03-09 17:30,2015-03-10 05:30,Air Canada,Vancouver,Toronto,585.40,2
+AC112,2015-03-14 07:15,2015-03-10 12:20,Air Canada,Toronto,Montreal,535.30,2
+AC334,2015-03-18 09:15,2015-03-11 11:28,Air Canada,Toronto,Vancouver,595.50,2
+AC001,2015-03-13 18:30,2015-03-14 06:45,Air Canada,Vancouver,Toronto,545.60,2
+AC990,2015-03-10 08:06,2015-03-10 12:22,Air Canada,Toronto,San Francisco,1875.10,2

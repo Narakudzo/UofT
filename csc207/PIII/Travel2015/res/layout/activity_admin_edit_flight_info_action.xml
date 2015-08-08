@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/ScrollView01"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#ffffff" >
+
+<LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="5dp"
+       android:text="@string/flightnumber"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    <ImageView
+        android:id="@+id/imageview3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/searchflight"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/editflight" />
+
+    
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       android:text="@string/editflightinformation" />
+ 
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:inputType="text" />
+
+     <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/editnumber" />
+
+    <EditText
+        android:id="@+id/editDeparturedatetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/editdeparturedatetime" />
+    
+    <EditText
+        android:id="@+id/editArrivaldatetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/editarrivaldatetime" />
+ 
+     <EditText
+        android:id="@+id/editAirline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/editairline" />
+
+     <EditText
+        android:id="@+id/editOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/editorigin" />
+        
+     <EditText
+        android:id="@+id/editDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView8"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/editdestination" />
+
+     <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView9"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/editprice" />
+    <EditText
+        android:id="@+id/editNumberofseats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <TextView
+       android:id="@+id/textView10"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_gravity="start"
+       android:text="@string/editnumberofseats" />
+    <Button
+      android:id="@+id/update"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="update"
+      android:text="@string/updateinformation" />
+    
+
+
+      
+    <Button
+      android:id="@+id/backtosearch"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="30dp"
+      android:layout_marginBottom="30dp"
+      android:onClick="backtosearch"
+      android:text="@string/backtosearch" />
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/ScrollView01"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#ffffff" >
+
+<LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageview20"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/airplane"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/client" />
+    
+    <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="@string/choose"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+     <Button
+      android:id="@+id/searchflight"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:onClick="searchflight"
+      android:text="@string/searchflight"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+     
+     <Button
+      android:id="@+id/searchitineraries"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="searchitineraries"
+      android:text="@string/searchitineraries"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+
+     <Button
+      android:id="@+id/personalinfo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="personalinfo"
+      android:text="@string/personalinfo"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+
+     <Button
+      android:id="@+id/itinerariesinfo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="itinerariesinfo"
+      android:text="@string/itinerariesinfo"
+      android:background="@color/Blue2"
+      android:textColor="@color/Snow" />
+
+   <Button
+      android:id="@+id/button1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="40dp"
+      android:layout_marginBottom="40dp"
+      android:onClick="logout"
+      android:text="@string/logout"  />
+
+  </LinearLayout>
+</ScrollView>

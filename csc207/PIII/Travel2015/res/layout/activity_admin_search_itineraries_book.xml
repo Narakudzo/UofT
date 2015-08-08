@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/ScrollView01"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#ffffff" >
+
+<LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    
+   <TextView
+       android:id="@+id/textView8"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="5dp"
+       android:text="@string/searchresult"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+   <TextView
+       android:id="@+id/clientname"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginBottom="5dp"
+       android:text="@string/searchresult"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/searchflight"
+        android:scaleType="fitStart"
+        android:src="@drawable/bookflight" />
+
+   <TextView
+       android:id="@+id/textResult"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       android:layout_gravity="center"
+       android:text="@string/textresult"
+       android:textAppearance="?android:attr/textAppearanceMedium" /> 
+ 
+    <TextView
+       android:id="@+id/textResult2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="20dp"
+       android:text="@string/textresult2"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <LinearLayout
+    android:id="@+id/container2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal" >
+    <Button
+      android:id="@+id/previous"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="previous"
+      android:text="@string/previous" />
+    <Button
+      android:id="@+id/bookflight"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="book"
+      android:text="@string/book" />
+    <Button
+      android:id="@+id/next"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="next"
+      android:text="@string/next" />
+    </LinearLayout>
+    <Button
+      android:id="@+id/backtosearch"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="30dp"
+      android:onClick="backtosearch"
+      android:text="@string/backtosearch" />
+
+</LinearLayout>
+</ScrollView>

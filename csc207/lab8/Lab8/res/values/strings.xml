@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab8</string>
+    <string name="title_activity_entry">EntryActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="submit">Submit</string>
+    <string name="submitted_data">Submitted_data</string>
+
+</resources>

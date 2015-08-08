@@ -1,0 +1,79 @@
+IMPORTANT NOTE:
+* On CDF, when running our project, please type the code below in terminal for adding more memory space for JAVA. 
+wolf:~% bash
+wolf:~$ export _JAVA_OPTIONS="-Xmx256M"
+wolf:~$ eclipse-android &
+(And you will see "Picked up _JAVA_OPTIONS: -Xmx256M")
+This will work.
+* This program uses SharedPreferences to track login as client or login as admin. When logged out, SharedPreferences are cleared by Editor (editor.clear()). But since we test this program in emulator, sometimes emulator delays deleting SharedPreferences. When this happens, the app stops (kind of crash). If this happens. Please wait for a second and click again. Or you may re-launch the app. It seems this does not happen on Android 5.1 API 22.
+* The login password is case sensitive.
+* If you want to add more admin, only way to do so is to add new admin line into passwords.txt manually.
+* Anytime upload flight.txt / client.txt, then all data will be replaced, but admin users will always stay.
+* When booked flights/itineraries, client.ser and flight.ser and itineraries.ser are all rebuilt. Also flight.txt is modified too. So if you need to reset everything, you have to replace flight.txt in DDMS.
+
+
+
+
+Login as Administrator:
+
+* Launched the emulator, leaved it and come back to eclipse, select Window -> open perspective -> others -> DDMS
+
+* In DDMS, clicks the File explorer, we assume that pushed the password.txt, client.txt, and flight.txt files onto /data/data/team.csc207.travel2015/files
+
+* Then, we can login as the Admin. The username of Admin and password are displayed in the passwords.txt
+	
+   The format of passwords.txt file is as follows:
+
+   	TYPE,USERNAME,PASSWORD
+
+  TYPE may be "admin" or "client", but we don't put "client" as type. Clients' login info will be created when administrator uploads client info.
+
+  In our passwords.txt, our username is stella, the password is minicooper.
+  Then, we can login as the Admin.
+
+*  After login, there are 7 option in Admin mode. 
+   Firstly, we need to click the Upload Client CSV(Admin) and Upload Flight CVS (Admin) buttons to upload the client and flight information.
+   Then, we can login as the client and search the flight.
+   If we do not upload the client.txt and flight.txt file in DDMS, then we will get the exception of upload error.
+
+*  For the Search Flight(Admin) and Search Itineraries(Admin),
+   We can book the flight for the client.
+   Firstly, we need to enter the departure date, origin, destination and client’s email to search the flight.
+   In the Search Itineraries(Admin) option, we can search the itineraries by price and duration.
+   In the Search Result, we can view the available flight and we can click the book button.
+   Then we click Back to Main Menu -> View/Cancel Itineraries(Admin), we can view the booking history and cancel the booking.
+
+* In main menu of admin mode, we can view and edit the client’s information.
+   Click the View/Edit Client Info(Admin)
+   Then, select the client’s email to view and edit.
+    In AdminClientInfoEdit page, we can update client’s information. If we change the client email, the client’s login name also change. Also, we can change the client’s password for the client.
+
+* In main menu of admin mode, we also can edit Flight information.
+   Click the Edit Flight Info(Admin) button.
+   Enter the any keywords of the flight which you want to edit.
+   Then, select the flight’s ID which you want to edit and click the edit Flight button. (The flight ID is unique)
+   We can change the flight information and click the update button to update the flight information.
+
+
+
+
+Login as Client:
+
+* Client must use their email as their login name and the password is set to the client’s last name when admin uploads client information. The password is case sensitive.
+
+* After login and get into the client main menu, there are 4 option for the client to choose. 
+
+* Firstly, we can click the Search/Book Flight button to search and book the flight.
+   After we click the button, we can enter the departure date, origin and destination to search the available flight.
+   Then, we can choose and book the flight from search result.
+   Also, we can click the Back to Main Menu -> View/Cancel Itineraries to view the booking history or cancel the booking.
+
+* Also, we can click the search/Book Itineraries button to search and book the itineraries.
+  We need to enter the departure date, sorted method, origin and destination to search the available flight.
+  Then, we can choose and book the itineraries from search result.
+  Also, we can click the Back to Main Menu -> View/Cancel Itineraries to view the booking history or cancel the booking.
+
+* We can click the Personal/Billing Info button to view and edit personal and billing information.
+  Client can change their personal and billing information and click the update button to finish their change. If the client change their email address, then their login name also change to the new email address and they will be asked for re-login. 
+  Also, Client can change their password. After they enter their new password and click the update password button, Client will be asked for re-login.
+

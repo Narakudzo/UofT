@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="editnumber">Flight Number</string>
+    <string name="editdeparturedatetime">Depareture Date/Time</string>
+    <string name="editarrivaldatetime">Arrival Date/Time</string>
+    <string name="editairline">Airline</string>
+    <string name="editorigin">Departure City</string>
+    <string name="editdestination">Destination City</string>
+    <string name="editprice">Ticket Price</string>
+    <string name="editnumberofseats">Number of Seats (current)</string>
+    <string name="editflightinformation">When you update the flight\'s date/time, the already-booked-flights won\'t be automatically cancelled. You will need to manually cancel flights/itineraries that are booked in case of itineraries\' conflicts.</string>
+    <string name="flightnumber">Flight Number Here</string>
+    <string name="editflight">Edit Flight</string>
+    <string name="searchkeywords">Enter keywords</string>
+    <string name="searchbykey">Search flight by keywords. Any keyword like Air Canada, Toronto, 2016 or AC100 except price. White space is considered as "AND" search. (Keywords are case insensitive.)</string>
+    <string name="backtoclientmenu">Back to Client Menu</string>
+    <string name="editclientinfo2">To edit client info, use form below.</string>
+    <string name="admineditpersonal1">Choose Client to View/Edit</string>
+    <string name="admineditpersonal2">Client Name Here</string>
+    <string name="chooseemail">(Select the email address of a client)</string>
+    <string name="view">View</string>
+    <string name="clientname">Client name here</string>
+    <string name="searchflight2">Search Flight for Client</string>
+    <string name="searchitineraries2">Search Itineraries for Client</string>
+    <string name="lastname">Last Name</string>
+    <string name="firstname">First Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="creditcard">Credit Card Number</string>
+    <string name="expiry">Expiry Date</string>
+    <string name="updateinformation">Update</string>
+    <string name="updatepassword">Update Password</string>
+    <string name="password1">Enter Password</string>
+    <string name="password2">Re-Enter Password</string>
+    <string name="app_name">Travel 2015</string>
+    <string name="title_activity_main">Welcome to Travel2015 !!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Please Login</string>
+    <string name="choose">Please select your activity from the menu below.</string>
+    <string name="adminmenu">You are in Admin Mode.</string>
+    <string name="searchflight">Search/Book Flight</string>
+    <string name="searchitineraries">Search/Book Itineraries</string>
+    <string name="personalinfo">Personal/Billing Info</string>
+    <string name="editclientinfo">If you change your email address, your login name will also be updated.</string>
+    <string name="clientinfoadmin">View/Edit Client Info (Admin)</string>
+    <string name="itinerariesinfo">View/Cancel Itineraries</string>
+    <string name="itinerariesinfoadmin">View/Cancel Itineraries (Admin)</string>
+    <string name="editflightinfoadmin">Edit Flight Info (Admin)</string>
+    <string name="uploadclient">Upload Client CSV (Admin)</string>
+    <string name="uploadclient2">Please place your client data in the path blow, and click Upload. (All clients\' data will be replaced!!)</string>
+    <string name="uploadflight">Upload Flight CSV (Admin)</string>
+    <string name="uploadflight2">Please place your flight data in the path below, and click Upload. (All flights\' data will be replaced!!)</string>
+    <string name="upload">Upload!!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_menu">Client Main Menu</string>
+    <string name="title_activity_main_admin">Admin Control Panel</string>
+    <string name="title_activity_client_search_flight">Search/Book Flight</string>
+    <string name="title_activity_client_search_flight_book">Book Flight</string>
+    <string name="title_activity_client_search_itineraries">Search/Book Itineraries</string>
+    <string name="title_activity_client_personal_info">Your Personal Information</string>
+    <string name="title_activity_client_itineraries_info">Your Flight List</string>
+    <string name="searchflightadmin">Search Flight (Admin)</string>
+    <string name="searchitinerariesadmin">Search Itineraries (Admin)</string>
+    <string name="title_activity_admin_search_flight">Search Flight for Client</string>
+    <string name="title_activity_admin_search_itineraries">Search Itineraries for Client</string>
+    <string name="title_activity_admin_client_info">Client\'s Data Control</string>
+    <string name="title_activity_admin_itineraries_info">List of Booked Itineraries</string>
+    <string name="title_activity_admin_edit_flight_info">Edit Flight Information</string>
+    <string name="title_activity_admin_upload_client">Upload Client Data</string>
+    <string name="title_activity_admin_upload_flight">Upload Flight Data</string>
+    <string name="title_activity_client_search_itineraries_book">View / Cancel Itineraries</string>
+    <string name="title_activity_admin_search_flight_book">Search/Book Flight</string>
+    <string name="title_activity_admin_search_itineraries_book">Book Flight</string>
+    <string name="airplane">Air Plane</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="enterflightinfo">Please enter criteria</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="date">Date</string>
+    <string name="search">Search</string>
+    <string name="YYYY">YYYY</string>
+    <string name="MM">MM</string>
+    <string name="DD">DD</string>
+    <string name="book">Book</string>
+    <string name="searchresult">Search Result</string>
+    <string name="chooseflight">Please choose flight and Book</string>
+    <string name="showflight">Show</string>
+    <string name="textresult">0 of 0</string>
+    <string name="textresult2">flight result show here</string>
+    <string name="previous">Prev</string>
+    <string name="next">Next</string>
+    <string name="backtosearch">Back to Search</string>
+    <string name="backtomenu">Back to Main Menu</string>
+    <string name="sortby">Sort By</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="sortby_array">
+        <item>Sort by Price</item>
+        <item>Sort by Duration</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>YYYY</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>MM</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="date_array">
+        <item>DD</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string name="title_activity_admin_client_info_edit">AdminClientInfoEdit</string>
+    <string name="title_activity_admin_edit_flight_info_action">AdminEditFlightInfoAction</string>
+
+</resources>

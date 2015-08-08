@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/ScrollView01"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#ffffff" >
+
+<LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="5dp"
+       android:text="@string/itinerariesinfo"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    <ImageView
+        android:id="@+id/imageview5"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/searchflight"
+        android:scaleType="fitStart"
+        android:src="@drawable/itineraries" />
+
+   <TextView
+       android:id="@+id/textResult"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="5dp"
+       android:layout_gravity="center"
+       android:text="@string/textresult"
+       android:textAppearance="?android:attr/textAppearanceMedium" /> 
+    <TextView
+       android:id="@+id/textResult3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="@string/clientname"
+       android:textAppearance="?android:attr/textAppearanceMedium" /> 
+    <TextView
+       android:id="@+id/textResult2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:layout_marginBottom="15dp"
+       android:text="@string/textresult2"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+   <LinearLayout
+    android:id="@+id/container2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal" >
+    <Button
+      android:id="@+id/previous"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="previous"
+      android:text="@string/previous" />
+    <Button
+      android:id="@+id/cancel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="cancel"
+      android:text="@string/cancel" />
+    <Button
+      android:id="@+id/next"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:onClick="next"
+      android:text="@string/next" />
+    </LinearLayout>
+    
+     <TextView
+       android:id="@+id/clientemail"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:visibility="invisible" />
+         <TextView
+       android:id="@+id/clientflightindex"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:visibility="invisible" />
+   
+    <Button
+      android:id="@+id/backtomenu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="30dp"
+      android:onClick="backtomenu"
+      android:text="@string/backtomenu" />
+
+</LinearLayout>
+</ScrollView>

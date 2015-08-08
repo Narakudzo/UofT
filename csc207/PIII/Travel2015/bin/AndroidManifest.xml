@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="team.csc207.travel2015"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name=".MainAdminActivity"
+            android:label="@string/title_activity_main_admin" >
+        </activity>
+        <activity
+            android:name=".ClientSearchFlight"
+            android:label="@string/title_activity_client_search_flight" >
+        </activity>
+        <activity
+            android:name=".ClientSearchItineraries"
+            android:label="@string/title_activity_client_search_itineraries" >
+        </activity>
+        <activity
+            android:name=".ClientPersonalInfo"
+            android:label="@string/title_activity_client_personal_info" >
+        </activity>
+        <activity
+            android:name=".ClientItinerariesInfo"
+            android:label="@string/title_activity_client_itineraries_info" >
+        </activity>
+        <activity
+            android:name=".AdminSearchFlight"
+            android:label="@string/title_activity_admin_search_flight" >
+        </activity>
+        <activity
+            android:name=".AdminSearchItineraries"
+            android:label="@string/title_activity_admin_search_itineraries" >
+        </activity>
+        <activity
+            android:name=".AdminClientInfo"
+            android:label="@string/title_activity_admin_client_info" >
+        </activity>
+        <activity
+            android:name=".AdminItinerariesInfo"
+            android:label="@string/title_activity_admin_itineraries_info" >
+        </activity>
+        <activity
+            android:name=".AdminEditFlightInfo"
+            android:label="@string/title_activity_admin_edit_flight_info" >
+        </activity>
+        <activity
+            android:name=".AdminUploadClient"
+            android:label="@string/title_activity_admin_upload_client" >
+        </activity>
+        <activity
+            android:name=".AdminUploadFlight"
+            android:label="@string/title_activity_admin_upload_flight" >
+        </activity>
+        <activity
+            android:name=".ClientSearchFlightBook"
+            android:label="@string/title_activity_client_search_flight_book" >
+        </activity>
+        <activity
+            android:name=".ClientSearchItinerariesBook"
+            android:label="@string/title_activity_client_search_itineraries_book" >
+        </activity>
+        <activity
+            android:name=".AdminSearchFlightBook"
+            android:label="@string/title_activity_admin_search_flight_book" >
+        </activity>
+        <activity
+            android:name=".AdminSearchItinerariesBook"
+            android:label="@string/title_activity_admin_search_itineraries_book" >
+        </activity>
+        <activity
+            android:name=".AdminClientInfoEdit"
+            android:label="@string/title_activity_admin_client_info_edit" >
+        </activity>
+        <activity
+            android:name=".AdminEditFlightInfoAction"
+            android:label="@string/title_activity_admin_edit_flight_info_action" >
+        </activity>
+    </application>
+
+</manifest>

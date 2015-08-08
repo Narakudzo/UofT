@@ -1,0 +1,13 @@
+1. In record(), recourdedData.set() may receive key index out of range
+because the instance tail will increase infinitely. Need a line to
+compute an appropriate index key number.
+
+2. In getLastDataPoints(), updating tail instance variable mess up the
+current index position. Need a local/temporary variable for the counter. 
+
+3. In averate(), the total instance is devided by CAPACITY. The data
+size may be less than CAPACIY. The denominator should be the size of
+recordedData.
+
+4. Due to the mess up of tail instance by getLastDataPoints(), record()
+will experience out of range error or overriding the wrong index.
